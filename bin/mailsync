@@ -35,7 +35,8 @@ fi
 syncandnotify() {
     acc="$(echo "$account" | sed "s/.*\///")"
     if [ -z "$opts" ]; then mbsync "$acc"; else mbsync "$opts" "$acc"; fi
-    folderlist="$(find "$MAILDIR"/"$acc"/*/new -type d 2>/dev/null | sed '/^\s*$/d' | awk -v exclude=$FOLDEREXCLUDES 'BEGIN {IGNORECASE = 1} $0 !~ exclude')"
+    pat="$MAILDIR"'/'"$acc"'/('"$FOLDEREXCLUDES"')/new'
+    folderlist="$(find "$MAILDIR"/"$acc"/*/new -type d 2>/dev/null | sed '/^\s*$/d' | awk -v exclude="$pat" 'BEGIN {IGNORECASE = 1} $0 !~ exclude')"
     for folder in $folderlist; do
 	    new="$(find "$folder" -type f -newer "$SYNCSTAT" 2> /dev/null)"
 	    newcount=$(echo "$new" | sed '/^\s*$/d' | wc -l)
