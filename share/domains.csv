@@ -108,6 +108,7 @@ grrlz.net,mail.autistici.org,993,smtp.autistici.org,465
 hacari.com,mail.autistici.org,993,smtp.autistici.org,465
 hacari.net,mail.autistici.org,993,smtp.autistici.org,465
 hacari.org,mail.autistici.org,993,smtp.autistici.org,465
+helsinki.fi,outlook.office365.com,993,smtp.helsinki.fi,587
 hhu.de,mail.hhu.de,993,mail.hhu.de,465
 hitler.rocks,mail.cock.li,993,mail.cock.li,587
 horsefucker.org,mail.cock.li,993,mail.cock.li,587
@@ -167,6 +168,7 @@ interia.pl,poczta.interia.pl,993,poczta.interia.pl,465
 inventati.org,mail.autistici.org,993,smtp.autistici.org,465
 ionos.de,imap.ionos.de,993,smtp.ionos.de,587
 itu.dk,imap-mail.outlook.com,993,smtp-mail.outlook.com,587
+kean.edu,imap.gmail.com,993,smtp.gmail.com,587
 kipras.org,mail.kipras.org,993,mail.kipras.org,587
 krutt.org,mail.autistici.org,993,smtp.autistici.org,465
 kth.se,webmail.kth.se,993,smtp.kth.se,587
@@ -236,6 +238,7 @@ rape.lol,mail.cock.li,993,mail.cock.li,587
 redchan.it,mail.cock.li,993,mail.cock.li,587
 resch.pw,mail.resch.pw,993,mail.resch.pw,587
 riseup.net,mail.riseup.net,993,mail.riseup.net,465
+rmcacs.org,imap.gmail.com,993,smtp.gmail.com,587
 runbox.com,mail.runbox.com,993,mail.runbox.com,587
 rwth-aachen.de,mail.rwth-aachen.de,993,mail.rwth-aachen.de,587
 sapo.pt,imap.sapo.pt,993,smtp.sapo.pt,587
@@ -251,6 +254,7 @@ stud.uni-bamberg.de,outlook.office365.com,993,smtp.office365.com,587
 student.rmit.edu.au,outlook.office365.com,993,smtp.office365.com,587
 student.tuwien.ac.at,mail.student.tuwien.ac.at,993,mail.student.tuwien.ac.at,587
 studenti.unipi.it,outlook.office365.com,993,smtp.office365.com,587
+students.rmcacs.org,imap.gmail.com,993,smtp.gmail.com,587
 students.southwales.ac.uk,imap.gmail.com,993,smtp.gmail.com,587
 studio.unibo.it,outlook.office365.com,993,smtp.office365.com,587
 studio.unibo.it,outlook.office365.com,993,smtp.office365.com,587
